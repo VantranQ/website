@@ -1,0 +1,152 @@
+.body{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    border:1px solid #000;
+    height: 960px;;
+    width:90%;
+    margin:auto ;
+
+}
+.header{
+    border:1px solid #ff80ff;
+    height:180px;
+    width:100%;
+    background-image: url("../img/.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+}
+.menu{
+    border:1px solid #1aff8c;
+    height:auto;
+    width:100%;
+    background: #6190d7;
+
+}
+.clear{
+    clear: both;
+}
+.footer{    
+    border:1px solid #ff1a8c;
+    height: 150px;
+    width:100%;
+    background: #c0b296;
+}
+ul.listmenu {
+    padding: 0;
+    /* margin: 0; */
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+} 
+ul.listmenu li {
+    padding: 3px;
+    /* border: 1px solid #000; */
+    float: left;
+    margin: 7px;
+    
+}
+ul.listmenu li:hover{
+    background: #bfa46d;
+}
+ul.listmenu li a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(28, 78, 19);
+}
+.main{
+    border:1px solid #00ff80;
+    height:50px;
+    width:100%;
+    background: #ffff;
+
+}
+.sidebar{
+    border:1px solid #1aff8c;
+    height:390px;
+    width:20%;
+    background: #ffff;
+    margin-top:2px;
+    margin-left:2px;
+    float: left;
+
+}
+ul.list_sidebar{
+    margin:0;
+    padding:0;
+    width:100%;
+    list-style: none;
+    line-height:27px;
+     
+}
+ul.list_sidebar li {
+    padding: 3px;
+    /* border: 1px solid #000; */
+    margin: 7px;
+    display: block; 
+    text-align: left;
+}
+ul.list_sidebar li:hover{
+    background: #bfa46d;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    color: rgb(28, 78, 19);
+    text-decoration:none ;
+}
+.maincontent{
+    height:auto;
+    width:79%;
+    background: #ffff;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:2px;
+    float:right;
+    background-color: #e8e3d9;
+
+}
+ul.list_products{
+    padding:0;
+    margin:0;
+    list-style: none;
+    width:100%;
+}
+ul.list_products li {
+    width:19%;   
+    border:1px solid #000;
+    margin:2px;
+    float:left;
+    height:300px;
+}
+ul.list_products li img {
+    width:100%;
+    height:190px;
+}
+.tile_products{
+    text-align: center;
+    font-size:16px;
+    color: #000;
+    font-weight:bold;
+}
+.cate_products{
+    text-align: center;
+    font-size:16px;
+    color: #000;
+    font-weight:bold;
+}
+.tile_price{
+    text-align: center;
+    color: #3192d2;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+ul.list_products li a {
+    text-decoration: none;
+}
+p.footer_copyright{
+    text-align:center;
+    color: #074f2b;
+}
